@@ -14,6 +14,24 @@
 		187D21DE1E25F6D3002B5BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187D21DC1E25F6D3002B5BF9 /* LaunchScreen.storyboard */; };
 		187D21E91E25F6D3002B5BF9 /* hungeryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D21E81E25F6D3002B5BF9 /* hungeryTests.swift */; };
 		187D21F41E25F6D3002B5BF9 /* hungeryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D21F31E25F6D3002B5BF9 /* hungeryUITests.swift */; };
+		187D221D1E25F797002B5BF9 /* ApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D22041E25F797002B5BF9 /* ApiRequest.m */; };
+		187D221E1E25F797002B5BF9 /* ApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D22061E25F797002B5BF9 /* ApiResponse.m */; };
+		187D221F1E25F797002B5BF9 /* BeanBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D22081E25F797002B5BF9 /* BeanBase.m */; };
+		187D22201E25F797002B5BF9 /* BeanCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D220A1E25F797002B5BF9 /* BeanCustomer.m */; };
+		187D22211E25F797002B5BF9 /* BeanUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D220C1E25F797002B5BF9 /* BeanUser.m */; };
+		187D22221E25F797002B5BF9 /* HttpApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D220E1E25F797002B5BF9 /* HttpApi.m */; };
+		187D22231E25F797002B5BF9 /* iffmCustomers.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D22101E25F797002B5BF9 /* iffmCustomers.m */; };
+		187D22241E25F797002B5BF9 /* Iffomation.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D22121E25F797002B5BF9 /* Iffomation.m */; };
+		187D22251E25F797002B5BF9 /* MyRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D22141E25F797002B5BF9 /* MyRefresh.m */; };
+		187D22261E25F797002B5BF9 /* NSKeyedUnarchiver+SafeUnarchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D22161E25F797002B5BF9 /* NSKeyedUnarchiver+SafeUnarchive.m */; };
+		187D22271E25F797002B5BF9 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D22181E25F797002B5BF9 /* Toast+UIView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		187D22281E25F797002B5BF9 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D221A1E25F797002B5BF9 /* UIViewExt.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		187D22291E25F797002B5BF9 /* XTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D221C1E25F797002B5BF9 /* XTLabel.m */; };
+		187D222C1E25F815002B5BF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187D222B1E25F815002B5BF9 /* Foundation.framework */; };
+		187D222E1E25F81A002B5BF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187D222D1E25F81A002B5BF9 /* UIKit.framework */; };
+		187D22301E25F821002B5BF9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187D222F1E25F821002B5BF9 /* CoreFoundation.framework */; };
+		187D22321E25F880002B5BF9 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187D22311E25F880002B5BF9 /* UserNotifications.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		187D22341E25FA25002B5BF9 /* hungeryheader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D22331E25FA25002B5BF9 /* hungeryheader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +65,38 @@
 		187D21EF1E25F6D3002B5BF9 /* hungeryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hungeryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187D21F31E25F6D3002B5BF9 /* hungeryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hungeryUITests.swift; sourceTree = "<group>"; };
 		187D21F51E25F6D3002B5BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187D22021E25F796002B5BF9 /* hungery-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hungery-Bridging-Header.h"; sourceTree = "<group>"; };
+		187D22031E25F797002B5BF9 /* ApiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiRequest.h; sourceTree = "<group>"; };
+		187D22041E25F797002B5BF9 /* ApiRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiRequest.m; sourceTree = "<group>"; };
+		187D22051E25F797002B5BF9 /* ApiResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiResponse.h; sourceTree = "<group>"; };
+		187D22061E25F797002B5BF9 /* ApiResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiResponse.m; sourceTree = "<group>"; };
+		187D22071E25F797002B5BF9 /* BeanBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeanBase.h; sourceTree = "<group>"; };
+		187D22081E25F797002B5BF9 /* BeanBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeanBase.m; sourceTree = "<group>"; };
+		187D22091E25F797002B5BF9 /* BeanCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeanCustomer.h; sourceTree = "<group>"; };
+		187D220A1E25F797002B5BF9 /* BeanCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeanCustomer.m; sourceTree = "<group>"; };
+		187D220B1E25F797002B5BF9 /* BeanUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeanUser.h; sourceTree = "<group>"; };
+		187D220C1E25F797002B5BF9 /* BeanUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeanUser.m; sourceTree = "<group>"; };
+		187D220D1E25F797002B5BF9 /* HttpApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpApi.h; sourceTree = "<group>"; };
+		187D220E1E25F797002B5BF9 /* HttpApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpApi.m; sourceTree = "<group>"; };
+		187D220F1E25F797002B5BF9 /* iffmCustomers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iffmCustomers.h; sourceTree = "<group>"; };
+		187D22101E25F797002B5BF9 /* iffmCustomers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iffmCustomers.m; sourceTree = "<group>"; };
+		187D22111E25F797002B5BF9 /* Iffomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iffomation.h; sourceTree = "<group>"; };
+		187D22121E25F797002B5BF9 /* Iffomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Iffomation.m; sourceTree = "<group>"; };
+		187D22131E25F797002B5BF9 /* MyRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRefresh.h; sourceTree = "<group>"; };
+		187D22141E25F797002B5BF9 /* MyRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRefresh.m; sourceTree = "<group>"; };
+		187D22151E25F797002B5BF9 /* NSKeyedUnarchiver+SafeUnarchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSKeyedUnarchiver+SafeUnarchive.h"; sourceTree = "<group>"; };
+		187D22161E25F797002B5BF9 /* NSKeyedUnarchiver+SafeUnarchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSKeyedUnarchiver+SafeUnarchive.m"; sourceTree = "<group>"; };
+		187D22171E25F797002B5BF9 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
+		187D22181E25F797002B5BF9 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
+		187D22191E25F797002B5BF9 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		187D221A1E25F797002B5BF9 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		187D221B1E25F797002B5BF9 /* XTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTLabel.h; sourceTree = "<group>"; };
+		187D221C1E25F797002B5BF9 /* XTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTLabel.m; sourceTree = "<group>"; };
+		187D222B1E25F815002B5BF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		187D222D1E25F81A002B5BF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		187D222F1E25F821002B5BF9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		187D22311E25F880002B5BF9 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		187D22331E25FA25002B5BF9 /* hungeryheader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hungeryheader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +104,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187D22321E25F880002B5BF9 /* UserNotifications.framework in Frameworks */,
+				187D22301E25F821002B5BF9 /* CoreFoundation.framework in Frameworks */,
+				187D222E1E25F81A002B5BF9 /* UIKit.framework in Frameworks */,
+				187D222C1E25F815002B5BF9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +135,7 @@
 				187D21E71E25F6D3002B5BF9 /* hungeryTests */,
 				187D21F21E25F6D3002B5BF9 /* hungeryUITests */,
 				187D21D11E25F6D3002B5BF9 /* Products */,
+				187D222A1E25F815002B5BF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +152,11 @@
 		187D21D21E25F6D3002B5BF9 /* hungery */ = {
 			isa = PBXGroup;
 			children = (
+				187D22011E25F763002B5BF9 /* publiClass */,
 				187D21D31E25F6D3002B5BF9 /* AppDelegate.swift */,
 				187D21D51E25F6D3002B5BF9 /* ViewController.swift */,
+				187D22331E25FA25002B5BF9 /* hungeryheader.swift */,
+				187D22021E25F796002B5BF9 /* hungery-Bridging-Header.h */,
 				187D21D71E25F6D3002B5BF9 /* Main.storyboard */,
 				187D21DA1E25F6D3002B5BF9 /* Assets.xcassets */,
 				187D21DC1E25F6D3002B5BF9 /* LaunchScreen.storyboard */,
@@ -123,6 +181,50 @@
 				187D21F51E25F6D3002B5BF9 /* Info.plist */,
 			);
 			path = hungeryUITests;
+			sourceTree = "<group>";
+		};
+		187D22011E25F763002B5BF9 /* publiClass */ = {
+			isa = PBXGroup;
+			children = (
+				187D22031E25F797002B5BF9 /* ApiRequest.h */,
+				187D22041E25F797002B5BF9 /* ApiRequest.m */,
+				187D22051E25F797002B5BF9 /* ApiResponse.h */,
+				187D22061E25F797002B5BF9 /* ApiResponse.m */,
+				187D22071E25F797002B5BF9 /* BeanBase.h */,
+				187D22081E25F797002B5BF9 /* BeanBase.m */,
+				187D22091E25F797002B5BF9 /* BeanCustomer.h */,
+				187D220A1E25F797002B5BF9 /* BeanCustomer.m */,
+				187D220B1E25F797002B5BF9 /* BeanUser.h */,
+				187D220C1E25F797002B5BF9 /* BeanUser.m */,
+				187D220D1E25F797002B5BF9 /* HttpApi.h */,
+				187D220E1E25F797002B5BF9 /* HttpApi.m */,
+				187D220F1E25F797002B5BF9 /* iffmCustomers.h */,
+				187D22101E25F797002B5BF9 /* iffmCustomers.m */,
+				187D22111E25F797002B5BF9 /* Iffomation.h */,
+				187D22121E25F797002B5BF9 /* Iffomation.m */,
+				187D22131E25F797002B5BF9 /* MyRefresh.h */,
+				187D22141E25F797002B5BF9 /* MyRefresh.m */,
+				187D22151E25F797002B5BF9 /* NSKeyedUnarchiver+SafeUnarchive.h */,
+				187D22161E25F797002B5BF9 /* NSKeyedUnarchiver+SafeUnarchive.m */,
+				187D22171E25F797002B5BF9 /* Toast+UIView.h */,
+				187D22181E25F797002B5BF9 /* Toast+UIView.m */,
+				187D22191E25F797002B5BF9 /* UIViewExt.h */,
+				187D221A1E25F797002B5BF9 /* UIViewExt.m */,
+				187D221B1E25F797002B5BF9 /* XTLabel.h */,
+				187D221C1E25F797002B5BF9 /* XTLabel.m */,
+			);
+			name = publiClass;
+			sourceTree = "<group>";
+		};
+		187D222A1E25F815002B5BF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				187D22311E25F880002B5BF9 /* UserNotifications.framework */,
+				187D222F1E25F821002B5BF9 /* CoreFoundation.framework */,
+				187D222D1E25F81A002B5BF9 /* UIKit.framework */,
+				187D222B1E25F815002B5BF9 /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +295,7 @@
 				TargetAttributes = {
 					187D21CF1E25F6D2002B5BF9 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					187D21E31E25F6D3002B5BF9 = {
@@ -259,8 +362,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187D22281E25F797002B5BF9 /* UIViewExt.m in Sources */,
+				187D22291E25F797002B5BF9 /* XTLabel.m in Sources */,
 				187D21D61E25F6D3002B5BF9 /* ViewController.swift in Sources */,
+				187D22241E25F797002B5BF9 /* Iffomation.m in Sources */,
+				187D22231E25F797002B5BF9 /* iffmCustomers.m in Sources */,
+				187D221E1E25F797002B5BF9 /* ApiResponse.m in Sources */,
 				187D21D41E25F6D3002B5BF9 /* AppDelegate.swift in Sources */,
+				187D22201E25F797002B5BF9 /* BeanCustomer.m in Sources */,
+				187D22211E25F797002B5BF9 /* BeanUser.m in Sources */,
+				187D22341E25FA25002B5BF9 /* hungeryheader.swift in Sources */,
+				187D221F1E25F797002B5BF9 /* BeanBase.m in Sources */,
+				187D22221E25F797002B5BF9 /* HttpApi.m in Sources */,
+				187D221D1E25F797002B5BF9 /* ApiRequest.m in Sources */,
+				187D22271E25F797002B5BF9 /* Toast+UIView.m in Sources */,
+				187D22251E25F797002B5BF9 /* MyRefresh.m in Sources */,
+				187D22261E25F797002B5BF9 /* NSKeyedUnarchiver+SafeUnarchive.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,11 +529,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = hungery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tongbushi.hungery.hungery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "hungery/hungery-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -424,11 +544,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = hungery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tongbushi.hungery.hungery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "hungery/hungery-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -505,6 +627,7 @@
 				187D21FA1E25F6D3002B5BF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		187D21FB1E25F6D3002B5BF9 /* Build configuration list for PBXNativeTarget "hungeryTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +636,7 @@
 				187D21FD1E25F6D3002B5BF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		187D21FE1E25F6D3002B5BF9 /* Build configuration list for PBXNativeTarget "hungeryUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +645,7 @@
 				187D22001E25F6D3002B5BF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
